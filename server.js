@@ -1,7 +1,7 @@
 const express=require('express');
 const ejsLint = require('ejs-lint');
 const app=express();
-const elasticbulk = require('elasticbulk');
+
 const path = require('path');
 const router=express.Router();
 const elastic=require('elasticsearch');
